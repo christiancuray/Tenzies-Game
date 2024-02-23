@@ -4,6 +4,7 @@ export default function Die(props) {
     backgroundColor: props.isHeld ? "#59E391" : "white",
   };
   // Return the dice button element
+
   return (
     <button
       style={styles}

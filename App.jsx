@@ -62,6 +62,7 @@ export default function App() {
     />
   ));
 
+  // Render the main component. Confetti will be rendered if the game is won.
   return (
     <main>
       {gameWon && <Confetti />}
